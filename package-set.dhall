@@ -8,12 +8,12 @@ let packages = [
   },
   { name = "ext"
   , repo = "https://github.com/Bochslertech/ext"
-  , version = "v0.1.0"
+  , version = "v0.1"
   , dependencies = [ "base", "crypto" ]
   },
   { name = "crypto"
   , repo = "https://github.com/Bochslertech/crypto"
-  , version = "v0.1.0"
+  , version = "v0.1"
   , dependencies = [ "base"]
   }
 ] : List Package
