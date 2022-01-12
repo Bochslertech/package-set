@@ -15,6 +15,11 @@ let packages = [
   , repo = "https://github.com/Bochslertech/ext"
   , version = "v0.1"
   , dependencies = [ "base", "crypto" ]
+  },
+  {  name = "nns"
+  , repo = "https://github.com/Bochslertech/nns"
+  , version = "v0.1"
+  , dependencies = []
   }
 ] : List Package
 
