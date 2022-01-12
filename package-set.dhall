@@ -16,7 +16,7 @@ let packages = [
   , version = "v0.1"
   , dependencies = [ "base", "crypto" ]
   },
-  {  name = "nns"
+  { name = "nns"
   , repo = "https://github.com/Bochslertech/nns"
   , version = "v0.1"
   , dependencies = []
